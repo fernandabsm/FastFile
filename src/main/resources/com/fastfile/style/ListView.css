@@ -1,0 +1,13 @@
+.list-cell {
+    -fx-background-color: #BCBBBB;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:selected {
+    -fx-background-color: #BCBBBB;
+    -fx-text-fill: #000000;
+}
+
+.list-cell:selected .text {
+    -fx-fill: #000000;
+}

@@ -1,0 +1,25 @@
+.download_files_container {
+    -fx-background-color: #787272;
+}
+
+.download_files_content_container {
+    -fx-background-color: #BCBBBB;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.download_files_content_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 40px;
+    -fx-fill: #000000;
+}
+
+.download_files_content_title_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 24px;
+    -fx-fill: #000000;
+}
+
+.download_files_list_view_container {
+    -fx-background-color: #BCBBBB;
+}

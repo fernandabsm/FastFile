@@ -1,0 +1,44 @@
+.upload_files_container {
+    -fx-background-color: #787272;
+}
+
+.upload_files_content_container {
+    -fx-background-color: #BCBBBB;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.upload_files_content_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 40px;
+    -fx-fill: #000000;
+}
+
+.upload_files_content_title_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 24px;
+    -fx-fill: #000000;
+}
+
+.upload_files_list_view_container {
+    -fx-background-color: #BCBBBB;
+}
+
+.upload_files_content_button_container {
+    -fx-alignment: center;
+    -fx-background-color: #BCBBBB;
+}
+
+.upload_files_content_button_container Button {
+    -fx-alignment: center;
+    -fx-background-color: #D9D9D9;
+    -fx-pref-width: 170px;
+    -fx-pref-height: 50px;
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 5);
+}
+
+.upload_files_content_button_container Button:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashboard" prefHeight="548.0" prefWidth="385.0" styleClass="login_container" stylesheets="@../style/Login.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fastfile.controller.LoginController">
+   <children>
+      <VBox layoutX="17.0" layoutY="56.0" prefHeight="463.0" prefWidth="349.0" styleClass="login_content_container" AnchorPane.rightAnchor="18.399999999999977" AnchorPane.topAnchor="56.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_content_container" text="FastFile" textAlignment="CENTER" wrappingWidth="155.7117919921875">
+               <VBox.margin>
+                  <Insets left="70.0" top="23.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Ebrima" size="43.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="60.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="220.0" top="-52.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../images/fastFile.png" />
+               </image>
+            </ImageView>
+            <VBox fillWidth="false" prefHeight="53.0" prefWidth="350.0" styleClass="login_content_title_container">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Entre com a senha:" textAlignment="CENTER" wrappingWidth="318.21641540527344">
+                     <VBox.margin>
+                        <Insets left="20.0" top="15.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox fillWidth="false" prefHeight="58.0" prefWidth="350.0" styleClass="login_content_textfield_container">
+               <children>
+                  <PasswordField fx:id="password" prefHeight="58.0" prefWidth="192.0" styleClass="input_field" />
+               </children>
+            </VBox>
+            <VBox prefHeight="26.0" prefWidth="350.0" styleClass="login_content_button_container">
+               <children>
+                  <Button fx:id="enter_button" mnemonicParsing="false" text="Entrar">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="41.0" prefWidth="350.0" styleClass="login_warning_container">
+               <children>
+                  <Text fx:id="warning_message" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_warning_container" text="Senha incorreta" wrappingWidth="283.42627000808716" />
+               </children>
+            </VBox>
+            <VBox prefHeight="191.0" prefWidth="350.0" styleClass="login_content_title_container">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ou faça um download" textAlignment="CENTER" wrappingWidth="349.21173095703125">
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </Text>
+                  <VBox prefHeight="26.0" prefWidth="350.0" styleClass="login_content_button_container">
+                     <children>
+                        <Button fx:id="show_files_button" mnemonicParsing="false" text="Ver arquivos">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

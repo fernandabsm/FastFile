@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashboard" prefHeight="548.0" prefWidth="385.0" styleClass="download_files_container" stylesheets="@../style/DownloadFiles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fastfile.controller.DownloadFilesController">
+   <children>
+      <VBox layoutX="17.0" layoutY="56.0" prefHeight="463.0" prefWidth="349.0" styleClass="download_files_content_container" AnchorPane.rightAnchor="18.399999999999977" AnchorPane.topAnchor="56.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="download_files_content_container" text="FastFile" textAlignment="CENTER" wrappingWidth="155.7117919921875">
+               <VBox.margin>
+                  <Insets left="70.0" top="23.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Ebrima" size="43.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="60.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="220.0" top="-52.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../images/fastFile.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="download_files_list_view_container">
+               <children>
+                  <ListView fx:id="listView" prefHeight="201.0" prefWidth="322.0" styleClass="download_files_list_view_container">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets></ListView>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

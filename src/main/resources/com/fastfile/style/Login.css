@@ -1,0 +1,63 @@
+.login_container {
+    -fx-background-color: #787272;
+}
+
+.login_content_container {
+    -fx-background-color: #BCBBBB;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.login_content_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 40px;
+    -fx-fill: #000000;
+}
+
+.login_content_title_container Text {
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 24px;
+    -fx-fill: #000000;
+}
+
+.login_content_textfield_container {
+    -fx-alignment: center;
+}
+
+.input_field {
+    -fx-background-color: #A4A4A4;
+    -fx-pref-width: 270px;
+    -fx-pref-height: 24px;
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+
+.login_warning_container {
+    -fx-alignment: center;
+}
+
+.login_warning_container Text {
+    -fx-text-alignment: center;
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 14px;
+    -fx-fill: #CA0000;
+}
+
+.login_content_button_container {
+    -fx-alignment: center;
+}
+
+.login_content_button_container Button {
+    -fx-background-color: #D9D9D9;
+    -fx-pref-width: 170px;
+    -fx-pref-height: 50px;
+    -fx-font-family: "Fredoka";
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 5);
+}
+
+.login_content_button_container Button:hover {
+    -fx-cursor: hand;
+}
